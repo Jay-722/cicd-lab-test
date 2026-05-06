@@ -21,3 +21,5 @@ export function buildApp(options: FastifyServerOptions = {}) {
 
   return app;
 }
+
+const x: number = 'this is a type error';
